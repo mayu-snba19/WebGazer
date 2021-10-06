@@ -1,11 +1,11 @@
 const params = {
   moveTickSize: 50,
-  videoContainerId: 'webgazerVideoContainer',
-  videoElementId: 'webgazerVideoFeed',
-  videoElementCanvasId: 'webgazerVideoCanvas',
-  faceOverlayId: 'webgazerFaceOverlay',
-  faceFeedbackBoxId: 'webgazerFaceFeedbackBox',
-  gazeDotId: 'webgazerGazeDot',
+  videoContainerId: "webgazerVideoContainer",
+  videoElementId: "webgazerVideoFeed",
+  videoElementCanvasId: "webgazerVideoCanvas",
+  faceOverlayId: "webgazerFaceOverlay",
+  faceFeedbackBoxId: "webgazerFaceFeedbackBox",
+  gazeDotId: "webgazerGazeDot",
   videoViewerWidth: 320,
   videoViewerHeight: 240,
   faceFeedbackBoxRatio: 0.66,
@@ -22,6 +22,7 @@ const params = {
   saveDataAcrossSessions: true,
   // Whether or not to store accuracy eigenValues, used by the calibration example file
   storingPoints: false,
+  isLearn: false,
 };
 
 export default params;
